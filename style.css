@@ -1,0 +1,105 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+  background-color: #070707;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+p {
+  color: white;
+}
+.jumbotron {
+  background-image: url(./img/jumbotron.png);
+  padding-bottom: 280px;
+  padding-top: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  background-color: #680000;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 59px;
+}
+
+.li-edit li {
+  color: white;
+}
+
+#testimony {
+  background-image: url(./img/background-3.png);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 59px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jingle {
+  margin-top: 133px;
+}
+
+#project {
+  background-image: url(./img/background-2.png);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-top: 59px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#order {
+  background-color: #680000;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 59px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 0px 50px 0px 50px;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box h1 {
+  color: #680000;
+}
+.box p {
+  color: #070707 !important;
+  text-align: center;
+  font-weight: 700;
+}
+.box h2 {
+  font-weight: 700;
+}
+
+.box li {
+  text-align: start;
+}
+
+.our {
+  background-image: url(./img/background-3.png);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-top: 59px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer {
+  background-color: #680000;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 59px;
+  margin-bottom: 60px;
+}
