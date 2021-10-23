@@ -4,24 +4,43 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- Facebook Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '158054169864408');
-      fbq('track', 'PageView');
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "158054169864408");
+      fbq("track", "PageView");
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=158054169864408&ev=PageView&noscript=1"
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=158054169864408&ev=PageView&noscript=1"
     /></noscript>
-<!-- End Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
 
     <!-- Bootstrap CSS -->
     <link
@@ -358,7 +377,11 @@
               <li>Fee Post Production (Mixing & Mastering)</li>
               <li>After sales services berupa revisi sebanyak 2x</li>
             </ul>
-            <button class="btn btn-danger" type="button">PESAN SEKARANG</button>
+            <a href="https://wa.me/6282393652332">
+              <button class="btn btn-danger" type="button">
+                PESAN SEKARANG
+              </button></a
+            >
           </div>
           <div class="col box">
             <h2>UNTUK PERUSAHAAN SKALA BESAR, DAN INSTANSI PEMERINTAH</h2>
@@ -379,7 +402,11 @@
               <li>Fee Post Production (Mixing & Mastering)</li>
               <li>After sales services berupa revisi sebanyak 2x</li>
             </ul>
-            <button class="btn btn-danger" type="button">PESAN SEKARANG</button>
+            <a href="https://wa.me/6282393652332">
+              <button class="btn btn-danger" type="button">
+                PESAN SEKARANG
+              </button></a
+            >
           </div>
         </div>
       </div>
